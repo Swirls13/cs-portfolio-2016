@@ -1,0 +1,33 @@
+#navbar {
+    text-align: center;
+}
+
+#navbar li {
+    display:inline-block;
+    padding: 10px;
+    font-size: 20px;
+    border: 10px solid blue;
+    background-color: white;
+    border-color: rgb(0, 204, 204);
+    border-radius: 10px;
+}
+
+body {
+    background-color: rgb(179, 255, 255);
+}
+
+#heading {
+    text-align: center;
+}
+
+#border1 {
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: rgb(0, 204, 204);
+    text-align: center
+    padding: 0px;
+    float: right;
+    position: static;
+    margin-right: 0%;
+    
+}
