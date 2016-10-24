@@ -26,7 +26,7 @@ div.transbox {
   margin: 30px;
   background-color: #ffffff;
   border: 1px solid black;
-  opacity: 0.8;
+  opacity: 0.9;
   filter: alpha(opacity=60); /* For IE8 and earlier */
   
   
@@ -37,6 +37,20 @@ div.transbox p {
   font-weight: bold;
   color: #000000;
   font-size: large;
+}
+
+.heading {
+    text-align: center;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.size {
+    font-size:20px;
+    text-align: center;
 }
     </style>
 </head>
@@ -54,6 +68,36 @@ div.transbox p {
             <li> <a href ="#">Big Project</a></li>
         </ul>
     <!-- Navbar Ends here -->
+    
+    <h1 class="heading">How To</h1>
+    
+    <h3 class="heading"><u>What is HTML?</u></h3>
+    <p class="size">HTML is an abbreviation for Hyper Text Markup Language and it's the standard markup language for creating Web pages by using markups to describe the structures of the web pages. Elements within the HTML pages are represented by tags, which help label pieces of content such as "paragraphs", "title", "tables" and much more. The tags aren't shown within the actual website, but are rather used to render the page contents.</p>
+    
+    <p class="size">To start off your website, you need the basic format for it. Below is the basic formatting for coding:</p>
+    <img class="center" src="http://www.w3schools.com/html/img_notepad.png">
+    <ul class="size">
+        <li><b>To start out, you should always have the tags < HTML > and < /HTML ></b></li>
+        <li><b>Next is the < body > < /body >. This tag is important because it helps indicate where to keep the contents of the page in.</b></li>
+        <li><b>The < h1 > < /h1 > tag indicates the heading of the website. There are numbers h1 to h6 to change the size of the heading from most important (h1) to least important (h6).</b></li>
+        <li><b>< p > < /p > indicates the paragraphs, where most of the writing is put in. Whatever you type in the code will show up on your website.</b></li>
+    </ul>
+    
+    <p>There are a lot of different ways to approach making your website. Since we now know the basics of it, we can now learn how to add different contents into the webpage to make it more interesting.</p>
+    
+    <h3 class="heading"><u>Images</u></h3>
+    <p>Images are one of the cool things you can put on your website. It helps liven up the page, making it more attractive to look at.</p>
+    <img class="center" src="http://image.slidesharecdn.com/basichtml1-130712155808-phpapp01/95/basic-html-29-638.jpg?cb=1373644838" width="475" height="375">
+    <ul class="size">
+        <li><b>To put an image you start off with the tag "< img src="" >"</b></li>
+        <li><b>The easiest way to insert a photo is by going on google images and finding a photo you would like to add to your website. After finding a photo or gif you like, you copy it's image address and paste it into the quotations of the tag.</b></li>
+        <li><b>ie: < img src <u>"http://orig08.deviantart.net/6fa9/f/2015/065/2/7/rainbow_unicorn___charity_auction_by_dragonsandbeasties-d8knxwn.jpg" ></u> ></b></li>
+        <img src="http://orig08.deviantart.net/6fa9/f/2015/065/2/7/rainbow_unicorn___charity_auction_by_dragonsandbeasties-d8knxwn.jpg">
+        <li><b>After inserting the photo, you might notice some things about it you don't like. The photo may be too big or small, but there's a way to fix that</b></li>
+        <li><b>To do this, you'll need to add "width" (width="") and/or "height" (height) in your tag. You can put it anywhere within the tag, as long as it doesn't interfere with the code. You can make the photo however big to your liking.</b></li>
+        <li><b>ie: < img src="http://orig08.deviantart.net/6fa9/f/2015/065/2/7/rainbow_unicorn___charity_auction_by_dragonsandbeasties-d8knxwn.jpg" <u>width="400" height="350"</u> ></b></li>
+        <img src="http://orig08.deviantart.net/6fa9/f/2015/065/2/7/rainbow_unicorn___charity_auction_by_dragonsandbeasties-d8knxwn.jpg" width="400" height="350">
+    </ul>
     
     </div>
 </div>
