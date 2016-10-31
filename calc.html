@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        
+    </title>
+    <style>
+#navbar {
+    text-align: center;
+}
+
+#navbar li {
+    display:inline-block;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+div.background {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWkZEWtdr18hRCDgoZ2LsSvczbDOgCCPf_8VOcXe24-E-0A9NV);
+border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  font-size: large;
+}
+
+</style>
+</head>
+<body>
+    <div class="background">
+  <div class="transbox">
+    <!-- Navbar Starts here -->
+        <ul id="navbar">
+            <li> <a href="index.html"> About Me </a></li>
+            <li> <a href ="hardware.html">Hardware</a></li>
+            <li> <a href ="howto.html">How To</a></li>
+            <li> <a href ="calc.html">Calculator</a></li>
+            <li> <a href ="#">To Do List</a></li>
+            <li> <a href ="#">Vindinium</a></li>
+            <li> <a href ="#">Big Project</a></li>
+        </ul>
+    <!-- Navbar Ends here -->
+    
+<input type ="text" name="input1" style="width:50px;" id="input1">
+    <select id="dropdown">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="x">x</option>
+        <option value="/">/</option>
+        <option value="^">^</option>
+        <option value="nroot">nroot</option>
+    </select>
+    <input type ="text" name="input2" style="width:50px;" id="input2">
+    <input type="button" value="Calculate" id="submitButton" />
+
+    <p>The answer is: <span id="display"></span></p>
+    
+    <script src="calc.js"></script>
+</div>
+</div>
+</body>
+</html>
