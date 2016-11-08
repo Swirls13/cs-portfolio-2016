@@ -1,0 +1,55 @@
+#navbar {
+    text-align: center;
+}
+
+#navbar li {
+    display:inline-block;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+div.background {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWkZEWtdr18hRCDgoZ2LsSvczbDOgCCPf_8VOcXe24-E-0A9NV);
+border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  font-size: large;
+}
+
+#heading {
+    text-align: center;
+}
+#dropdown {
+    border-radius: 4px;
+    border: 2px solid;
+    background-color: white;
+}
+
+#submitButton {
+    border-radius: 4px;
+    border: 2px solid;
+    background-color: white;
+}
+
+#input1 {
+    font-family: cursive;
+    
+}
+
+#input2 {
+    font-family: cursive;
+}

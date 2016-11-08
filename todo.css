@@ -1,0 +1,31 @@
+#navbar {
+    text-align: center;
+}
+
+#navbar li {
+    display:inline-block;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+div.background {
+  background: url(http://ih0.redbubble.net/image.103341498.8304/flat,800x800,075,f.u2.jpg);
+border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  font-size: large;
+}
