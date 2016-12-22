@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="howto2.css" type="text/css" />
+    </head>
+   <body>
+
+<div class="background">
+  <div class="transbox">
+ <ul id="navbar">
+            <li> <a href ="index.html"> About Me </a></li>
+            <li> <a href ="hardware.html">Hardware</a></li>
+            <li> <a href ="howto.html">How To</a></li>
+            <li> <a href ="calc.html">Calculator</a></li>
+            <li> <a href ="todo.html">To Do List</a></li>
+            <li> <a href ="howto2.html">How To: Calculator</a></li>
+            <li> <a href ="#">Vindinium</a></li>
+            <li> <a href ="#">Big Project</a></li>
+        </ul>
+        
+        <h1 class="writing">How To: Calculator</h1>
+        
+        <p class="font">For this How To, you will learn how to make a calculator:</p>
+        
+        <p class="writing">To start out, you need to have the basic HTML structure. An example of one is:</p>
+        
+        <img src="https://openlab.citytech.cuny.edu/clarkeadv2450/files/2012/08/html-structure.jpg">
+        
+        <p class="writing">After getting your structure, and maybe adding a few personal touches to it, you’ll need to know how to actually start making your own calculator.</p>
+        
+        <h1 class="writing"><u>INPUT</u></h1>
+        
+        <p class="writing">In the "body" tags you have to add two “input” boxes. These boxes are where you can type in the numbers for your calculator.</p>
+        
+        <p class="font">An example of this structure is as shown below:</p>
+        
+        <img src="images/pic1.png">
+        
+        <p class="writing">In the input tag, there are two things to take note of. The “type” and the “id”. These two features are very important when it comes to making all of this.</p>
+        
+        <ul class="lists"><strong>
+            <li>The type is used to make the user limited to only inputting numbers into the boxes.</li>
+            <li>The id is used to identify the element in places like CSS or JavaScript and manipulate it into changing its look or doing specific things</li>
+            <li>The id should be completely unique to its name in order to tell the difference between it and other objects</li>
+        </strong></ul>
+        
+        <p class="font">By the end of your inputs, it should look like this:</p>
+        
+        <img src="images/pic2.png">
+        
+        <ul class="lists"><strong>
+           <li>You are able to type in your own numbers</li>
+           <li>Or you can use the arrows to input the numebrs</li>
+        </strong></ul>
+        
+        <h1 class="writing"><u>DROPDOWN</u></h1>
+        
+        <p class="writing">After making the two inputs, you’ll need to be able to add an option to add, subtract, etc the numbers. These options are called “operations”. To do this you need to add a "select" tag, which will make a dropdown list.</p>
+        
+        <p class="font">This is what mine looks like:</p>
+        
+        <img src="images/pic3.png">
+        
+        <ul class="lists"><strong>
+            <li>As you can see, the “select” is in between the two inputs. It’s important to add an id to the select as well, since it will be used for later.</li>
+            <li>The “option” tags are what is seen in the dropdown, and what you click on to chose how you want to calculate.</li>
+            <li>The “value” part of the tag is to specify the value of an "input" element. It helps send the information in the value to the server when you submit it.</li>
+        </strong></ul>
+        
+        <img src="images/pic4.png">
+        
+        <ul class="lists"><strong>
+            <li>This is what the drop down looks like</li>
+            <li>You're able to select the different options from it</li>
+        </strong></ul>
+        
+        <h1 class="writing"><u>BUTTON & DISPLAY</u></h1>
+        
+        <p class="writing">For the next part of the calculator you have to add a button to run the functions and a place to display your answers. For this we’re going to need the elements "input" and "span"</p>
+        
+        <p class="font">My code looks like this:</p>
+        
+        <img src="images/pic5.png">
+        
+        <p class="writing">The inputs can be used for more than just being able to create boxes for you to type in. Like how we labeled the “type” in the previous one to be “number” so that you can input only numbers into the boxes, by making the type “button” the box will operate just like a clickable button.</p>
+        
+        <ul class="lists"><strong>
+            <li>The “value” in this case, labels the button. Meaning that the button will say “Calculate!” on it, but you can make it anything you want.</li>
+            <li>It’s good to give it an id for future reference</li>
+        </strong></ul>
+        
+        <p class="writing">The paragraph tag is to show where the answer will be, while the <span> is to actually display the the answer. Each also have their own ids as well.</p>
+        
+        <p class="font">The final result would most likely look like this:</p>
+        
+        <img src="images/pic6.png">
+        
+        <h1 class="writing"><u>LINKING TO JAVASCRIPT</u></h1>
+        
+        <p class="writing">It’s not quite complete yet, though. The next thing to do is to make the calculator work. To do this, we need to link the HTML to Javascript.</p>
+        
+        <img src="images/pic7.png">
+        
+        <ul class="lists"><strong>
+            <li>The "script" tag directs the HTML through src, which then brings the HTML to an external file by using it’s URL.</li>
+            <li>In my case the external file is named “calc.js” It matches with my HTML file name to make searching for them easier</li>
+        </strong></ul>
+        
+        <img src="images/pic8.png">
+        
+        <h1 class="writing"><u>GATHERING ELEMENTS</u></h1>
+        
+        <p class="wriiting">To start off using javascript, you’ll need to gather the elements from your HTML. In our case, the elements we need are the inputs, the drop down, the display, and the submit button.</p>
+        
+        <p class="font">Mine looks like this:</p>
+        
+        <img src="images/pic9.png">
+        
+        <ul class="lists"><strong>
+            <li>The “var” (variable) is used to store the data values into javascript</li>
+            <li>The var has to then be followed by identifiers, which have to be unique to each other to prevent the variables from doing the same function</li>
+            <li>My variables are button, numBox1, numBox2, answer, display, and dropdown</li>
+            <li>The “=” of the code is usually known as the assignment operator, which assigns the value to the variable</li>
+            <li>document.getElementById(“ “) can be used to get information from another file. For this function, we’re using the ids we made earlier</li>
+        </strong></ul>
+        
+        <h1 class="writing"><u>addEventListener</u></h1>
+        
+        <p class="writing">After you’re done getting your elements you need to be able to make the operations in the dropdown work.</p>
+        
+        <img src="images/pic10.png">
+        
+        <ul class="lists"><strong>
+            <li>Because of the functions earlier, the “var button” tells the program that anything that is performed is on the button</li>
+            <li>addEventListener( ) is used to tell the program to do a specific function when acted upon.</li>
+            <li>The first parameter, “click”, is a type of event that makes the button calculate or do something when clicked on.</li>
+            <li>The second parameter determines what happens once the “click” is activated. In this case, when the button is clicked, the program will “doMath”</li>
+        </strong></ul>
+        
+        <h1 class="writing"><u>IF STATEMENTS</u></h1>
+        
+        <p class="writing">The last step is to add if statements. If statements are used when there are multiple options of a function to use. So when you chose a certain operation from the drop down, it will do as shown. An example of one of the operations code is:</p>
+        
+        <img src="images/pic11.png">
+        
+        <ul class="lists"><strong>
+            <li>For these if statements, the operator has to be equal “==” to the value of “+”</li>
+            <li>In the next line I put “answer” as the var. This means that answer will equal “numBox1” (the first input) plus “numBox2” (the second input). So whatever numbers you put in the first input box will be added to the numbers in the second input box.</li>
+            <li>However, this isn’t all. By just doing this, it wouldn’t actually add the numbers but only put the two numbers together.</li>
+        </strong></ul>
+        
+        <p class="font">Example:</p>
+        
+        <img src="images/pic12.png">
+        
+        <p class="font">By doing this, it will turn out like this:</p>
+        
+        <img src="images/pic13.png">
+        
+        <ul class="lists"><strong>
+            <li>To fix this, you add parseInt( ) to the variables to make the numbers into an integer.</li>
+            <li>To display the answer on the screen, I added “display.innerHTML = answer;”</li>
+            <li>he “display” is the id that I used earlier so that the answer will “equal” or transfer the contents to where it should be shown on screen.</li>
+        </strong></ul>
+        
+        <img src="images/pic14.png">
+        
+        <p class="writing">You are able to use this if statement example to make the other operations work with only a few changes and different math operations. The other if statements I made for the operations are:</p>
+        
+        <img src="images/pic15.png">
+        
+        <h1 class="writing"><u>CSS</u></h1>
+        
+        <p class="writing">After finishing your calculator, you can now use CSS to design it to be whatever you would like it to be. After some coding, my calculator looks like this:</p>
+        
+        <img src="images/pic16.png">
+        
+        <p class="font">The code for I used to make it look like this are as followed:</p>
+        
+        <img src="images/pic17.png">
+        
+        <img src="images/pic1.png">
+        
+        <p class="writing">But in the end, it’s up to your imagination! If there’s something you want to do or know, there are places you can look at like w3school.com or just look it up on Google.</p>
+
+ </div>
+</div>
+
+</body>
+</html>

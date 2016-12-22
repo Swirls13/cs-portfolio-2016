@@ -4,7 +4,9 @@
     <title>
         
     </title>
+
     <link rel="stylesheet" href="calc.css" type="text/css" />
+    
 </head>
 <body>
     <div class="background">
@@ -15,7 +17,8 @@
             <li> <a href ="hardware.html">Hardware</a></li>
             <li> <a href ="howto.html">How To</a></li>
             <li> <a href ="calc.html">Calculator</a></li>
-            <li> <a href ="#">To Do List</a></li>
+            <li> <a href ="todo.html">To Do List</a></li>
+            <li> <a href ="howto2.html">How To: Calculator</a></li>
             <li> <a href ="#">Vindinium</a></li>
             <li> <a href ="#">Big Project</a></li>
         </ul>
@@ -24,21 +27,27 @@
     <h1 id="heading">Calculator</h1>
     
     <!-- calculator -->
-<input type ="number" style="width:50px;" id="input1">
+    
+    <input type ="number" id="numBox1">
+    
     <select id="dropdown">
         <option value="+">+</option>
         <option value="-">-</option>
         <option value="x">x</option>
         <option value="/">/</option>
         <option value="^">^</option>
-        <option value="nroot">&radic;</option>
+        <option value="%">modulus</option>
+        <option value="nroot">nroot</option>
     </select>
-    <input type ="number" style="width:50px;" id="input2">
+    
+    <input type ="number" id="numBox2">
+    
     <input type="button" value="Calculate!" id="submitButton">
 
-   <div id="display"> The Answer Is: </div>
-    
+   <p id="answer">The Answer Is: <span id="display"></span></p>
+   
     <script src="calc.js"></script>
+    
 </div>
 </div>
 </body>

@@ -1,0 +1,51 @@
+#navbar {
+    text-align: center;
+}
+
+#navbar li {
+    display:inline-block;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+div.background {
+  background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRKEofpda0IP65OkdrWZpgnJVGgClF2JKjlJ3OHaATponrBlI6Xug);
+border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  font-size: large;
+}
+
+.writing {
+    text-align: center;
+    font-family: monospace;
+}
+
+.font {
+  font-family: monospace;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.lists {
+  text-align: center;
+  font-family: monospace;
+  font-size: large;
+}

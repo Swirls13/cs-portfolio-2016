@@ -29,3 +29,60 @@ div.transbox p {
   color: #000000;
   font-size: large;
 }
+
+#heading {
+    text-align: center;
+    font-family: cursive;
+}
+
+#colorChange {
+
+    border-radius: 4px;
+    border: 2px solid;
+    background-color: white;
+    font-size: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: cursive;
+}
+
+#colorStyle {
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 2px solid;
+    background-color: white;
+    font-size: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: cursive;
+}
+
+#textBox {
+    width: 500px;
+    height: 30px;
+    margin-left: 2px;
+    font-size: 40px;
+    font-family: cursive;
+    padding: 15px;
+    border-color: black;
+    border-radius: 4px;
+}
+
+#addButton {
+    border-radius: 4px;
+    border: 2px solid;
+    background-color: white;
+    font-size: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: cursive;
+}
+
+#list {
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+}
