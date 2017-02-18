@@ -11,7 +11,7 @@
 }
 
 div.background {
-  background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRKEofpda0IP65OkdrWZpgnJVGgClF2JKjlJ3OHaATponrBlI6Xug);
+  background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRiXWWewYAhx-cYl9iw518erErOzz26JwqIn3yvn0xa2NjUqmn-rg);
 border: 2px solid black;
 }
 
@@ -30,22 +30,16 @@ div.transbox p {
   font-size: large;
 }
 
-writing {
+.writing {
     text-align: center;
-    font-family: monospace;
+    font-family: cursive;
 }
 
-.font {
-  font-family: monospace;
+.border {
+    border-style: dotted;
+    text-align: center;
 }
 
 img {
     display: block;
     margin: 0 auto;
-}
-
-.lists {
-  text-align: center;
-  font-family: monospace;
-  font-size: large;
-}
