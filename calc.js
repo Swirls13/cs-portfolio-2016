@@ -1,5 +1,4 @@
 // Javascript for calculator
-
 var button = document.getElementById("submitButton");
 var numBox1 = document.getElementById('numBox1');
 var numBox2 = document.getElementById('numBox2');
